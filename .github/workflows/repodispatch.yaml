@@ -1,0 +1,9 @@
+name: repodispatch
+on: [repository_dispatch]
+jobs:
+  job1:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: test
+        run: |
+          echo test

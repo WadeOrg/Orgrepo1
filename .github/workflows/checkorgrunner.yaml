@@ -1,1 +1,9 @@
-
+name: check org runner
+on: [push]
+jobs:
+  job1:
+    runs-on: [test2]
+    steps:
+      - name: test
+        run: |
+          echo test
